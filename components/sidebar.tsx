@@ -18,7 +18,7 @@ import {
 } from "lucide-react"
 
 const personalNavigation = [
-  { name: "ダッシュボード", icon: BarChart3, current: true, href: "/" },
+  { name: "ダッシュボード", icon: BarChart3, current: true, href: "/dashboard" },
   { name: "Kudosを送る", icon: Send, current: false, href: "/send" },
   { name: "受信箱", icon: Inbox, current: false, badge: 3, href: "/inbox" },
   { name: "送信済み", icon: SendHorizontal, current: false, href: "/sent" },
