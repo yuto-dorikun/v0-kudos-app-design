@@ -34,6 +34,7 @@ const adminNavigation = [
   { name: "チーム分析", icon: Users, current: false, href: "/team-analysis", premium: true },
   { name: "つながりマップ", icon: Building2, current: false, href: "/admin/connection-map", premium: true },
   { name: "ユーザー管理", icon: Settings, current: false, href: "/admin" },
+  { name: "設定", icon: Cog, current: false, href: "/admin/settings" },
 ]
 
 export function Sidebar() {
